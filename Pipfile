@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pylama = "*"
+
+[packages]
+ipykernel = "*"
+keras = "*"
+tensorflow = "*"
+sklearn = "*"
+pandas = "*"
+seaborn = "*"
+qhoptim = "*"
+keras-tuner = "*"
+joblib = "*"
+mltb = "*"
+plotly = "*"
+nbformat = "*"
+scikit-image = "*"
+pillow = "*"
+livelossplot = "*"
+
+[requires]
+python_version = "3.8"
